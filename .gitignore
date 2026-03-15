@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Hugging Face cache (optional – if you want to keep it out of repo)
+.cache/
+
+# Streamlit secrets (if you add any later)
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model folder (if you decide to store models locally)
+models/
